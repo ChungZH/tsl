@@ -8,6 +8,10 @@ Translate in terminal. Written in C++ 17.
 
 在终端里翻译。使用 C++ 17 编写。
 
+CHINESE <=> ENGILSH
+
+中文 <=> 英文
+
 ## Features / 特性
 
 ## Usage / 使用
