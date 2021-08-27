@@ -4,6 +4,10 @@
 
 > **T**ran**sl**ate.
 
+Inspired by the JS project [afc163/fanyi](https://github.com/afc163/fanyi).
+
+------
+
 Translate in terminal. Written in C++ 17.
 
 在终端里翻译。使用 C++ 17 编写。
