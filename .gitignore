@@ -31,6 +31,8 @@
 *.out
 *.app
 
+*.user
+
 /*build*
 .vscode/
 .cache/
