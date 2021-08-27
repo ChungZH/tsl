@@ -5,3 +5,23 @@
 > **T**ran**sl**ate.
 
 Translate in terminal. Written in C++ 17.
+
+在终端里翻译。使用 C++ 17 编写。
+
+## Features / 特性
+
+## Usage / 使用
+
+## Config / 设置
+
+## TODO
+
+See [GitHub Projects](https://github.com/ChungZH/tsl/projects).
+
+## LICENSE
+
+Mozilla Public License Version 2.0.
+
+------
+
+> tsl - Made with ❤ by [ChungZH](https://github.com/ChungZH)
