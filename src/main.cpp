@@ -1,9 +1,7 @@
 #include <cxxopts.hpp>
 #include <iostream>
-#include <rang.hpp>
-#include <vector>
-#include <codecvt>
 #include <locale>
+#include <vector>
 
 #include <cpr/cpr.h>
 #include <cpr/util.h>
