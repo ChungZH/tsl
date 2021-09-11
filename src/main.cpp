@@ -26,10 +26,13 @@ int main(int argc, char** argv)
     }
     const std::vector<std::string> words(result.unmatched());
     for (const auto word : words) {
+        cout << "HelloWWorld\n";
         std::string urlYD = "http://fanyi.youdao.com/openapi.do?keyfrom=node-fanyi&key=110811608&type=data&doctype=json&version=1.1&q=" + cpr::util::urlEncode(word);
         std::string urlICB = "http://dict-co.iciba.com/api/dictionary.php?key=D191EBD014295E913574E1EAF8E06666&w=" + cpr::util::urlEncode(word);
         cpr::Response rYD = cpr::Get(cpr::Url { urlYD });
         cpr::Response rICB = cpr::Get(cpr::Url { urlICB });
+        cout << "HelloWWorld\n";
+        cout << urlYD << " " << urlICB << endl;
         cout << rYD.text << endl;
         cout << rICB.text << endl;
     }
